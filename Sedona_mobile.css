@@ -1,0 +1,307 @@
+@media(max-width:420px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+    }
+    .main-header{
+        box-shadow: none;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu li{
+        padding:0;
+        margin: 0;
+        background-color: #81b3d2;
+        display:inline-block;
+        width:100%;
+        border-bottom: 1px solid #678fa8;
+    }
+    .menu li:hover{
+        background-color: #669ec0;
+    }
+    .menu li:active{
+        background-color: #5496bd; 
+        color:#88b6d1; 
+    }
+    .menu li a{
+        font-size: 18px;
+        color:#ffffff;
+        display:inline-block;
+        margin-top:16px;
+        margin-bottom: 16px;
+    }
+    .menu li:nth-child(3){
+        order:1;
+    }
+    .menu li:nth-child(1){
+        order:2;
+        border-top:1px solid #9ac2db;
+    }
+    .menu li:nth-child(2){
+        order:3;
+        border-top:1px solid #9ac2db;
+    }
+    .menu li:nth-child(4){
+        order:4;
+        margin-bottom: 56px;
+        border-bottom: none;
+        border-top:1px solid #9ac2db;
+    }
+	.meni li:last-child{
+	position:relative;
+	}
+    .smallintro{
+        background: none;
+    }
+	.menu{
+	position:relative;
+	}
+	.main-navigation{
+	position:relative;
+	}
+    .logo{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0;
+		bottom:-13px;
+		top:none;
+    }
+
+    .divintro{
+        background:url(images/background-mobile.png) no-repeat;
+        background-size: 100% 92%;
+        background-position-x: center;
+        text-align: center;
+    }
+    .intro{
+        content: url(images/intro-mobile.png);
+        margin:auto;
+        margin-top:45px;
+        width:87.5%
+    }
+	.logoicon { 
+left: 50%; 
+top: 225px; 
+}
+    .welcome{
+		display:block;
+        width:196px;
+        margin-top: 47px;
+    }
+    .sedona{
+        width:280px;
+        margin-top:30px;
+    }
+    .grandsucks{
+        margin-top:36px;
+        width: 197px;
+    }
+    .tothegorgeous{
+        width: 196px;
+    }
+    .triangles{
+        display:none;
+    }
+    .smallintro{
+        height:390px;
+    }
+    .information{
+        margin: 0;
+        min-height: 0;
+        margin-bottom: 15px;
+    }
+    .information-text{
+        padding-left: 3.13%;
+        padding-right: 3.13%;
+        margin: 0;
+    }
+    .information-title{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .menu:before{
+        content: url(images/Vector-Smart-Object.png);
+        right: 20px;
+        top:17px;
+        position: absolute;
+    }
+    .menu:after{
+        fill:#81b3d2;
+        content: url("sedona-img/icon-menu.svg");
+        right: 20px;
+        top:244px;
+        position: absolute;
+    } 
+    .line-one-box{
+        width: 100%;
+        min-height: 211px;
+        background:url(images/white-triangle-mobile.png) no-repeat, #81b3d2;
+        background-size: contain;
+    }
+    .line-one-img{
+        background-position-x: 40%;
+        width: 100%;
+		background-size:cover;
+    }
+    .all-features{
+        display: flex;
+        flex-direction: column;
+    }
+    .features-info{
+        margin:20px 20px 20px 40px;
+    }
+    .features{
+        width:100%;
+        text-align: left;
+        min-height: 0;
+    }
+    #featureshouse{
+        order:1;
+    }
+    #featuresburger{
+        order:3;
+        margin-bottom:20px;
+    }
+    #featuresgift{
+        order:2;
+    }
+    .features-info .features-title{
+        font-size:18px;
+    }
+    .features-info{
+        margin:0 10px 10px 70px;
+    }
+    .features-info p{
+        margin:0;
+    }
+    .minilogo{
+        position:relative;
+        left:20px;
+        margin: 0;
+        top:30px;
+        background-size: 100% 100%;
+    }
+    .house{
+        width:37px;
+        height: 37px;
+    }
+    .gift{
+        width:32px;
+        height: 38px;
+    }
+    .burger{
+        width: 37px;
+        height: 35px;
+    }
+    .line-two{
+        display: flex;
+        flex-direction: column;
+    }
+    .line-two-box .line-text{
+        margin:30px 5% 30px 5%;
+    }
+    .line-two-box{
+        width: 100%;
+        min-height: 191px;
+        order:1;
+    }
+    .line-two-img{
+        width:100%;
+        order:2;
+		background-size:cover;
+    }
+    .line-text{
+        margin: 70px 5% 30px 5%;
+    }
+    .features-two{
+        width: 100%;
+        min-height: 0;
+    }
+    .features-text{
+        margin:25px 5% 0px 5%;
+        padding-bottom: 24px;
+        border-bottom: 1px solid #d6d6d6;
+    }
+    .features№5{
+        border-bottom: none;
+    }
+    .interesting-title{
+        font-size: 21px;
+        margin-bottom: 20px;
+    }
+    .interesting{
+        min-height: 0;
+    }
+    .interesting-text{
+        margin:20px 4% 35px 4%;
+    }
+    .find-hotel{
+        width: 100%;
+        margin-top: 20px;
+        padding-top: 16px;
+    }
+    .main-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .footer-visit{
+        width: 100%;
+        margin:0;
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+    .footer-social{
+        width: 100%;
+        margin:0;
+        margin-bottom:15px;
+    }
+    .footer-madeby{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        margin-bottom:20px;
+    }
+    .footer-madeby span{
+        margin-bottom: 5px;
+        display: inline-block;
+    }
+    .footer-madeby a{
+        transform: translateY(40%);
+    }
+}
+@media(min-width: 420px) and (max-width: 768px){
+	.line-one{
+	width:50%;
+	}
+	.line-one-img{
+	width:100%;
+	}
+	.line-one-box{
+	width:100%
+	}
+	.all-features{
+	width:50%
+	}
+	.features{
+	float:none;
+	min-height:0;
+	width:100%;
+	}
+	.vertcontainer{
+	display:flex;
+	}
+	.minilogo{
+	margin-top:0;
+	}
+	.features-info{
+	margin:10px auto 10px auto;
+	}
+	.features-title{
+	margin-bottom:2.5%
+	}
